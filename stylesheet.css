@@ -63,15 +63,6 @@ ul{
     transform-origin: bottom left;
 }
 
-.videos{
-    display: flex;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 @media screen and (max-width: 1000px) {
     .navigationBar a:not(:first-child) {display: none;}
     .navigationBar a.icon {
@@ -117,6 +108,13 @@ ul{
     height: auto;
 }
 
+.imgTitle{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 @media screen and (max-width: 700px) {
     .displayFlexing{
         display: flex;
@@ -129,7 +127,7 @@ ul{
 .TitleNews{
     color: #FFF;
     text-align: center;
-    font-size: x-large;
+    font-size: 30px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: normal;
     zoom: 1;
@@ -138,7 +136,7 @@ ul{
 
 .NewsFont{
     font-family: 'Playfair Display', serif;
-    font-size: medium;
+    font-size: large;
 }
 
 .displayNews{
@@ -155,9 +153,9 @@ ul{
 .WordsFomats{
     color: #FFF;
     padding: 10px;
-    font-family: "Ropa Sans",sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     text-decoration: none;
-    font-size: large;
+    font-size: 23px;
     transition: 1s;
     width: 680px;
     padding: 1%;
@@ -191,8 +189,13 @@ ul{
 
 
 @media screen and (max-width: 700px) {
+    .button{
+        padding: 10px 20px;
+        font-size: small;
+    }
+
     .hrNews{
-        width: 400px;
+        width: 350px;
     }
 
     .TitleNews{
@@ -250,8 +253,12 @@ ul{
         height: 40%;
     }
 
+    .DetailsVideo{
+        
+    }
+
     .hrVideo{
-        width: 100%;
+        width: 375px;
     }
 }
 
@@ -299,10 +306,8 @@ ul{
 
 .InstaImg{
     padding-right: 0.5cm;
-    padding-left: 0.5cm;
-    
+    padding-left: 0.5cm; 
 }
-
 
 @media screen and (max-width: 1200px) {
     .displayForSocialMedia{
@@ -317,6 +322,11 @@ ul{
     .instaGramFlex{
         padding-left: 1cm;
         padding-top: 5%;
+    }
+
+    .instaSize{
+        width: 100%;
+        height: 100%;
     }
 }
 
