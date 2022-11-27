@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="javascript" href="java.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,19 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Island+Moments&family=Roboto:ital,wght@1,100&family=Secular+One&display=swap" rel="stylesheet">
     <title>mrsgreenapple.com</title>
 
-    <script>
-        function myFunction() {
-        var x = document.getElementById("MYnavigationBar");
-            if (x.className === "navigationBar") 
-            {
-                x.className += " responsive";
-            } 
-            else 
-            {
-                x.className = "navigationBar";
-            }
-        }
-    </script>    
+    <script src="java.js"></script>  
 
 </head>
 <body>
@@ -46,7 +33,7 @@
     <p class="TitleNews">PROFILE</p>
 
     <div class="ProfileContainer">
-        <img width="930" height="620" src="image/groupPic.jpg">
+        <img class="ProfileResizing" width="930" height="620" src="image/groupPic.jpg">
     </div> 
 
     <br>
@@ -61,6 +48,23 @@
             Throughout their break time, 1 year and 8 months, they regrouped and restarted their music activity as “Phase 2”. <br><br>
         </div>
     </div>
+
+    <p class="TitleNews">Band History</p>
+    <hr class="hrProfile">
+
+    <div class="ProfileHistory">
+        <img class="imgHistory" width="480" height="320" src="image/groupPic2018.jpg">
+        <div class="WordsCol">
+            <div class="wordsTitle">2013</div>
+            <hr class="hrProfile">
+            <div class="wordsContainerRight">
+                Singer Ohmori started creating music when he was in 6th grade, 
+                but did not form a band till 2013. Mrs. GREEN APPLE was formed in the spring of 2013 with 4 members: Ohmori, Wakai, Yamanaka, and a former member who was a bassist. Later, Ohmori invited Fujisawa, and Mrs. GREEN APPLE became a 5-member band
+            </div>
+        </div>
+    </div>
+
+
 
 
     

@@ -103,23 +103,18 @@ ul{
 
 .container{
     padding: 1%;
-    justify-content: space-evenly;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.imgFlex{
+    display: flex;
+    justify-content: center;
 }
 
 .imgTitle{
     width: 100%;
     height: 100%;
-}
-
-
-
-@media screen and (max-width: 700px) {
-    .displayFlexing{
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 
 
@@ -152,13 +147,12 @@ ul{
 
 .WordsFomats{
     color: #FFF;
-    padding: 10px;
+    padding: 10px 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     text-decoration: none;
     font-size: 23px;
     transition: 1s;
     width: 680px;
-    padding: 1%;
 }
 
 .WordsFomats:hover{
@@ -210,7 +204,7 @@ ul{
 
     .WordsFomats{
         font-size: 15px;
-        width: 400px;
+        width: 350px;
     }
 
     .NewsFont{
@@ -313,10 +307,11 @@ ul{
     .displayForSocialMedia{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .TwitterFlex{
-        padding-left: 1cm;
+        padding-left: 20px;
     }
 
     .instaGramFlex{
@@ -356,6 +351,11 @@ footer{
     justify-content: center;
 }
 
+.ProfileResizing{
+    width: 930px;
+    height: 620px;
+}
+
 .wordsContainer{
     padding: 10px;
     width: 930px;
@@ -364,4 +364,74 @@ footer{
     font-family: 'PT Sans Narrow', sans-serif;
     color: #FFF;
     font-size: medium;
+}
+
+.hrProfile{
+    width: 180px;
+}
+
+.ProfileHistory{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ProfileHistoryReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;   
+}
+
+.wordsContainerRight{
+    padding: 10px;
+    width: 350px;
+    height: 300;
+    border: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    font-size: medium;
+}
+
+.wordsTitle{
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    color: #FFF;
+    text-align: center;
+}
+
+.WordsCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgHistory{
+    width: 480px; 
+    height: 320px;
+}
+
+
+
+@media screen and (max-width: 930px){
+    .ProfileResizing{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ProfileHistory{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wordsContainer{
+        font-size: small;
+    }
+
+    .wordsContainerRight{
+        font-size: small;
+    }
+
+    .imgHistory{
+        width: 390.400px;
+        height: 260.263px;
+    }
 }

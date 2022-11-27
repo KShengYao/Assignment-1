@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="text/javascript" href="java.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,19 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Island+Moments&family=Roboto:ital,wght@1,100&family=Secular+One&display=swap" rel="stylesheet">
     <title>mrsgreenapple.com</title>
 
-    <script>
-        function myFunction() {
-        var x = document.getElementById("MYnavigationBar");
-            if (x.className === "navigationBar") 
-            {
-                x.className += " responsive";
-            } 
-            else 
-            {
-                x.className = "navigationBar";
-            }
-        }
-    </script>    
+    <script src="java.js"></script>    
 </head>
 
 <body>
@@ -43,19 +30,22 @@
         </div>
     </header>
 
-    <div class="displayFlexing">
-        <img class="imgTitle" width="1695" height="790" src="image/Soranji.jpg">
+    <div class="imgFlex">
+        <div class="imgTitle">
+            <a href="profile.html"><img class="imgTitle" width="1695" height="790" src="image/Soranji.jpg"></a>
+        </div>
     </div>
 
+   
     <br><br>
 
     <div class="displayFlexing">
-        <a class="container" href="https://mrsgreenapple.com/pages/zepptour2022"><img alt="Mrs. GREEN APPLE official site" src="image/pic1.PNG"></a>
-        <a class="container" href="https://www.universal-music.co.jp/mrsgreenapple/newmynormal/"><img alt="Mrs. GREEN APPLE official site" src="image/pic2.PNG"></a>
+        <a href="https://mrsgreenapple.com/pages/zepptour2022"><img class="container" width="324" height="138" src="image/pic1.PNG"></a>
+        <a href="https://www.universal-music.co.jp/mrsgreenapple/newmynormal/"><img class="container"width="324" height="138" src="image/pic2.PNG"></a>
     </div>
     <div class="displayFlexing">
-        <a class="container" href="https://mrsgreenapple.com/about/membership"><img alt="Mrs. GREEN APPLE official site" src="image/pic3.PNG"></a>
-        <a class="container" href="https://sp.universal-music.co.jp/mrsgreenapple/unity/"><img alt="Mrs. GREEN APPLE official site" src="image/pic4.PNG"></a>
+        <a href="https://mrsgreenapple.com/about/membership"><img class="container" width="324" height="138" src="image/pic3.PNG"></a>
+        <a href="https://sp.universal-music.co.jp/mrsgreenapple/unity/"><img class="container" width="324" height="138" src="image/pic4.PNG"></a>
     </div>
 
     <p class="TitleNews" class="WordsFont">NEWS</p>
