@@ -168,7 +168,7 @@ ul{
 
 .button{
     padding: 10px 60px;
-    background-color: black;
+    background-color: rgb(20, 224, 81);
     color: #FFF;
     text-decoration: none;
     font-size: large;
@@ -241,14 +241,15 @@ ul{
     margin-bottom: 0%;
 }
 
+.vidDescription{
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 @media screen and (max-width: 700px) {
     .videoSize{
         width: 80%;
         height: 40%;
-    }
-
-    .DetailsVideo{
-        
     }
 
     .hrVideo{
@@ -422,7 +423,7 @@ footer{
     .ProfileHistory{
         display: flex;
         flex-wrap: wrap;
-    }
+    }   
 
     .ProfileHistoryReverse{
         display: flex;
@@ -441,4 +442,89 @@ footer{
         width: 390.400px;
         height: 260.263px;
     }
+}
+
+
+/* Discography CSS */
+.graphyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-wrap: wrap;
+}
+
+.graphyContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.graphyContainer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.graphyWords{
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 250px;
+}
+
+.graphyWords1{
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 745px;
+}
+
+.releaseDate{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.DetailsBox{
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 250px;
+    padding-left: 15px;
+    border: none;
+    color: #FFF
+}
+
+.graphybutton{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.graphybuttonSelect{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.graphybuttonSizing{
+    padding-left: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .graphyWords1{
+        width: 250px;
+    }
+
+    .releaseDate{
+        padding-top: 0;
+    }
+
+    .DetailsBox{
+        padding-bottom: 20px;
+    }
+
 }
