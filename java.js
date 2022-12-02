@@ -25,7 +25,6 @@ function ClickingVideo() {
     ReleaseDate.innerHTML = "02.08.2019"
     
     video.load();
-    video.play();
 }
 
 
@@ -44,7 +43,6 @@ function ClickingVideo1() {
     ReleaseDate.innerHTML = "02.11.2022"
     
     video.load();
-    video.play();
 }
 
 function ClickingVideo2() {
@@ -62,7 +60,6 @@ function ClickingVideo2() {
     ReleaseDate.innerHTML = "07.11.2022"
     
     video.load();
-    video.play();
 }
 
 function ClickingVideo3() {
@@ -113,5 +110,69 @@ function ClickingVideo5() {
     description.innerHTML = "Mrs. GREEN APPLE has released a lyric video that cuts out the Japanese summer scenery in commemoration of the number of streaming views of Phase 1's representative summer song (Ao to Natsu) surpassing 100 million views!"
     ReleaseDate.innerHTML = "18.03.2022"
     
+    video.load();
+}
+
+function ClickingVideo6() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE - Theater.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE - Theater"
+    description.innerHTML = "Phase 1, thank you so much everyone! I am grateful for the many encounters I have had. Phase 2 is next. See you again!!"
+    ReleaseDate.innerHTML = "08.07.2020"
+    video.load();
+}
+
+function ClickingVideo7() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE-「スターダム」Official Lyric Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE-「スターダム」Official Lyric Video"
+    description.innerHTML = "Released on July 8, 2020, released the lyric video of 'Stardom' from the best album '5', which will be the conclusion of Mrs. GREEN APPLE Phase 1!!"
+    ReleaseDate.innerHTML = "24.06.2020"
+    video.load();
+}
+
+function ClickingVideo8() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE- WanteD! WanteD! (Side Story ver.).mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE- WanteD! WanteD! (Side Story ver.)"
+    description.innerHTML = 'The music video for "WanteD! WanteD!" (Side Story ver.) from the best album "5", which will be released on Wednesday, July 8th, means "Phase 1 is complete"!!It is another story of the 2017 "WanteD! WanteD!" music video. Special thanks to Yurina Hirate'
+    ReleaseDate.innerHTML = "03.07.2020"
+    video.load();
+}
+
+function ClickingVideo9() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE – アボイドノート.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE – アボイドノート"
+    description.innerHTML = 'Released on July 8, 2020, the music video for the new song "Avoid Note" from the best album "5", which will be the conclusion of Mrs. GREEN APPLE Phase 1, has been released!!'
+    ReleaseDate.innerHTML = "27.05.2020"
     video.load();
 }

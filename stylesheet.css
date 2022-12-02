@@ -533,12 +533,9 @@ footer{
 }
 
 /* Video CSS */
-
 .cssVideo{
     display: flex;
     justify-content: center;
-    
-    
 }
 
 .sizingVideo{
@@ -600,6 +597,20 @@ footer{
 .videoImg{
     width: 300px;
     height: 150px;
+}
+
+.videobutton{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    padding: 2px 5px;
+    background-color: grey;
+    
+}
+
+.videobutton1{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    padding: 2px 5px;
 }
 
 @media screen and (max-width: 1000px){
