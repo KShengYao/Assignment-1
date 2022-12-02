@@ -7,5 +7,111 @@ function myFunction() {
         else 
         {
             x.className = "navigationBar";
-        }
+        } 
     }
+
+/* VideoJava */
+function ClickingVideo() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE - インフェルノ（Inferno).mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE - インフェルノ（Inferno)"
+    description.innerHTML = "Description: Inferno (インフェルノ or Inferuno in Japanese) is a song released by the Japanese rock band Mrs. GREEN APPLE. It was released as a part of the group’s album, Attitude in 2019.It was used as the opening theme for Season 1 of the anime Fire Force (Enn Enn no Shouboutai or 炎炎ノ消防隊 in Japanese)."
+    ReleaseDate.innerHTML = "02.08.2019"
+    
+    video.load();
+    video.play();
+}
+
+
+function ClickingVideo1() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE「Soranji」Official Music Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE「Soranji」Official Music Video"
+    description.innerHTML = ""
+    ReleaseDate.innerHTML = "02.11.2022"
+    
+    video.load();
+    video.play();
+}
+
+function ClickingVideo2() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE「フロリジナル」Official Music Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE「フロリジナル」Official Music Video"
+    description.innerHTML = "PARFA TUNE is a collaboration project in which FITS invites various artists to create unique perfumes along with original songs. Using a traditional method called (incense scale) invented in England in the 19th century, sounds are expressed as scents. The incense scale is a musical scale applied to 46 types of fragrances. Highly volatile scents are assigned to high notes, and low notes are assigned to low notes. It was invented in the 19th century by English perfumer Septimus Pies, who was also a chemist."
+    ReleaseDate.innerHTML = "07.11.2022"
+    
+    video.load();
+    video.play();
+}
+
+function ClickingVideo3() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE「ダンスホール」Official Music Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE「ダンスホール」Official Music Video"
+    description.innerHTML = ""
+    ReleaseDate.innerHTML = "28.06.2022"
+    
+    video.load();
+}
+
+function ClickingVideo4() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE「ニュー・マイ・ノーマル」Official Music Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE「ニュー・マイ・ノーマル」Official Music Video.mp4"
+    description.innerHTML = ""
+    ReleaseDate.innerHTML = "18.03.2022"
+    
+    video.load();
+}
+
+function ClickingVideo5() {
+    var changingVideo = document.getElementById("sourceID")
+    var video = document.getElementById("videoID")
+    
+    var title = document.getElementById("VideoTitle")
+    var description = document.getElementById("description")
+    var ReleaseDate = document.getElementById("VideoReleaseJs")
+    
+
+    changingVideo.setAttribute('src', 'video/Mrs. GREEN APPLE – 「青と夏」 Official Lyric Video.mp4'); 
+    title.innerHTML = "Mrs. GREEN APPLE – 「青と夏」 Official Lyric Video"
+    description.innerHTML = "Mrs. GREEN APPLE has released a lyric video that cuts out the Japanese summer scenery in commemoration of the number of streaming views of Phase 1's representative summer song (Ao to Natsu) surpassing 100 million views!"
+    ReleaseDate.innerHTML = "18.03.2022"
+    
+    video.load();
+}

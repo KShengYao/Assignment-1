@@ -117,7 +117,6 @@ ul{
     height: 100%;
 }
 
-
 /* News/live css */
 .TitleNews{
     color: #FFF;
@@ -156,7 +155,8 @@ ul{
 }
 
 .WordsFomats:hover{
-    background-color: rgb(34, 130, 34)
+    background-color: #FFF;
+    color: rgb(34, 130, 34);;
 }
 
 .buttonNews{
@@ -167,18 +167,25 @@ ul{
 }
 
 .button{
-    padding: 10px 60px;
-    background-color: black;
-    color: #FFF;
-    text-decoration: none;
-    font-size: large;
+    padding: 10px 40px;
+    background-color: #FFF;
+    color: rgb(34, 130, 34);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: medium;
     border: none;
     margin: 0;
+
+    transition: 0.4 ease-in;
 }
 
 .button:hover{
-    cursor: crosshair;
-    background-color: rgb(34, 130, 34)
+    cursor: pointer;
+    background-color: rgb(34, 130, 34);
+    color: #FFF;
+}
+
+.button:hover::after{
+    width: 100% ;
 }
 
 
@@ -241,14 +248,15 @@ ul{
     margin-bottom: 0%;
 }
 
+.vidDescription{
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 @media screen and (max-width: 700px) {
     .videoSize{
         width: 80%;
         height: 40%;
-    }
-
-    .DetailsVideo{
-        
     }
 
     .hrVideo{
@@ -301,6 +309,10 @@ ul{
 .InstaImg{
     padding-right: 0.5cm;
     padding-left: 0.5cm; 
+}
+
+.instaSize:hover{
+    zoom:110%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -411,8 +423,6 @@ footer{
     height: 320px;
 }
 
-
-
 @media screen and (max-width: 930px){
     .ProfileResizing{
         width: 100%;
@@ -422,7 +432,7 @@ footer{
     .ProfileHistory{
         display: flex;
         flex-wrap: wrap;
-    }
+    }   
 
     .ProfileHistoryReverse{
         display: flex;
@@ -440,5 +450,161 @@ footer{
     .imgHistory{
         width: 390.400px;
         height: 260.263px;
+    }
+}
+
+
+/* Discography CSS */
+.graphyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-wrap: wrap;
+}
+
+.graphyContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.graphyContainer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.graphyWords{
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 250px;
+}
+
+.graphyWords1{
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 745px;
+}
+
+.releaseDate{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.DetailsBox{
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 250px;
+    padding-left: 15px;
+    border: none;
+    color: #FFF
+}
+
+.graphybutton{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.graphybuttonSelect{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.graphybuttonSizing{
+    padding-left: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .graphyWords1{
+        width: 250px;
+    }
+
+    .releaseDate{
+        padding-top: 0;
+    }
+
+    .DetailsBox{
+        padding-bottom: 20px;
+    }
+
+}
+
+/* CSS VIDEO */
+.cssVideo{
+    display: flex;
+    justify-content: center;
+}
+
+.sizingVideo{
+    width: 900px;
+}
+
+.WordsVideos{
+    width: 900px;
+    color: #FFF;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.VideoRelease{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.videoHr{
+    width: 900px;
+}
+
+.videoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.videoCol{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.videoCol1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    color: #FFF;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.videoImg{
+    width: 280px;
+    height: 157px;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .sizingVideo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoHr{
+        width: 380px;
     }
 }
