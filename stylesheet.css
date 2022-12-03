@@ -101,6 +101,12 @@ ul{
     flex-direction: row;
 }
 
+.wordsVideosBody{
+    width: 350px;
+    border-top: #FFF 1px solid;
+    border-bottom: #FFF 1px solid;
+}
+
 .container{
     padding: 1%;
     width: 100%;
@@ -156,8 +162,8 @@ ul{
 }
 
 .WordsFomats:hover{
-    background-color: white;
-    color: green;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 83, 25);
 }
 
 .buttonNews{
@@ -180,7 +186,7 @@ ul{
 
 .button:hover{
     cursor: pointer;
-    background-color: rgb(42, 200, 42);
+    background-color: #72b427;
     color: #FFF;
 }
 
@@ -305,6 +311,10 @@ ul{
 .InstaImg{
     padding-right: 0.5cm;
     padding-left: 0.5cm; 
+}
+
+.instaSize:hover{
+    zoom: 110%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -576,6 +586,8 @@ footer{
 
     padding-top: 10px;
     padding-bottom: 10px;
+
+    cursor: pointer;
 }
 
 .videoCol1{
@@ -592,6 +604,8 @@ footer{
     
     padding-left: 10px;
     padding-right: 10px;
+
+    cursor: pointer;
 }
 
 .videoImg{
