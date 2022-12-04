@@ -291,7 +291,6 @@ function ClearAll(){
             }
             alert("Name: " + document.getElementById("CheckoutName").value+"\n"+
             "ContactNo: " + document.getElementById("checkoutContactNo").value +"\n"+
-            "ContactNo: " + document.getElementById("checkoutContactNo").value +"\n"+
             "Country: " + document.getElementById("Country").value +"\n"+
             "Address: " + document.getElementById("address").value +"("+ document.getElementById("postal").value + ")" + "\n"+
             "Payment: " + document.getElementById("CreditCard").elements["cc"].value + " (Approved)" + "\n"+
