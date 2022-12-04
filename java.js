@@ -176,38 +176,3 @@ function ClickingVideo9() {
     ReleaseDate.innerHTML = "27.05.2020"
     video.load();
 }
-
-/* cartFuntcions */
-
-function CartMsg(){
-    var msg = document.getElementById("popUpmsg")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg1(){
-    var msg = document.getElementById("popUpmsg1")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg2(){
-    var msg = document.getElementById("popUpmsg2")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg3(){
-    var msg = document.getElementById("popUpmsg3")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg4(){
-    var msg = document.getElementById("popUpmsg4")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg5(){
-    var msg = document.getElementById("popUpmsg5")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg6(){
-    var msg = document.getElementById("popUpmsg6")
-    msg.innerHTML = "Added to Cart!!!"
-}
-function CartMsg7(){
-    var msg = document.getElementById("popUpmsg7")
-    msg.innerHTML = "Added to Cart!!!"
-}

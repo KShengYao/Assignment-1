@@ -14,14 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>mrsgreenapple.com</title>
 
-    <script src="java.js"></script>    
+    
 </head>
 
 <body>
     <div class="cssFlexBox">
         <img class="imgLocations" width="400" height="100" src="image/storeLogo.JPG">
     </div>
-
     <div class="navSizing">
         <div class="TopWordsFlex">
             <div class="navigationBar">
@@ -33,7 +32,281 @@
             </div>
         </div>
     </div>
+    <br><br><br>
+    <div class="cartContainerFlex">
+        <div class="cartContainer">
+            <div class="cartContainerFlexCol">
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="background-color: #002417;">                 
+                        Product information
+                    </div>
+                    
+                    <div class="cartBlock1" style="background-color: #002417;">
+                        Price (including tax)
+                    </div>
+
+                    <div class="cartBlock1" style="background-color: #002417;">
+                        Quantity
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <div id="cartInfo"></div>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo1"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice1"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity1"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo2"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice2"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity2"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo3"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice3"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity3"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo4"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice4"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity4"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo5"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice5"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity5"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo6"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice6"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity6"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo7"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice7"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity7"></label>
+                    </div>
+                </div>
+
+                <div class="cartContainerFlexRow"> 
+                    <div class="cartBlock" style="color: black;">                 
+                        <label id="cartInfo8"></label>
+                    </div>
+                    
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartPrice8"></label>
+                    </div>
+
+                    <div class="cartBlock1" style="color: black;">
+                        <label id="cartQuantity8"></label>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <hr class="cartHr">
+    <div class="cartContainerFlexCol">
+        <div class="cartContainerFlexRow"> 
+            <div class="cartBlock" style="color: black;">                 
+                <a href="cart.html"><button onclick= "ClearDataBase()" class="cartButton">Clear</button></a>
+            </div>
+            
+            <div class="cartBlock1" style="color: black;" >
+                <label>Total:</label>
+            </div>
+
+            <div class="cartBlock1" style="color: black;">
+                <label id="totalAmount"></label>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="CheckOutFunctions">Checkout</div>
+    <hr class="checkoutHR">
+    <div class="cartContainerFlex">
+        <div class="checkoutContainer">
+            Name:<br>
+            <input id="CheckoutName" class="textWidth" type="text"><br>
+            ContactNo:<br>
+            <input id="checkoutContactNo" class="textWidth" type="text"><br>
+            Country:<br>
+            <select id="Country">
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Korea">Korea</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+            </select><br>
+            Postal Code:<br>
+            <input  id="postal" class="textWidth" type="text"><br>
+            Address:<br>
+            <input id="address" class="textWidth" type="text"><br>
+
+            Delivery Options:<br>
+            <form id="Delivery">
+                <input type="radio" name="Delivery" value="Express Delivery">
+                <label>Express Delivery + $5(1-3days)</label><br>
+                <input type="radio" name="Delivery" value="Noraml Delivery">
+                <label for="L">Free Delivery (5-7days) </label><br>
+                <br>
+            </form>
+        </div>
+    </div>
+
+    <div class="CheckOutFunctions">Payment</div>
+    <hr class="checkoutHR">
+    <div class="cartContainerFlex">
+        <div class="checkoutContainer">
+            Credit Card:<br>
+            <form id="CreditCard">
+                <input type="radio" name="cc" value="Visa">
+                <label>Visa</label><br>
+                <input type="radio" name="cc" value="Masters">
+                <label>Masters</label><br>
+            </form>
+            Name:<br>
+            <input id="PaymentName" class="textWidth" type="text"><br>
+            Card Number:<br>
+            <input id="PaymentCArd" class="textWidth" type="text"><br>
+            Postal Code:<br>
+            <input id="PaymentPostal" type="text"><br>
+            Address:<br>
+            <input id="PaymentAddress" type="text"><br>
+
+            <form id="DeliveryAddress">
+                <input type="radio" name="Delivery" value="Express Delivery">
+                <label>Billing address same as Delivery Address</label>
+            </form>
+            <br>
+            <div class="cartContainerFlex">
+                <button onclick= "ClearAll()" class="cartButton">Checkout</button></a>
+            </div>
+        </div>
+    </div>
+
     
 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="cart.js"></script>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <br><br>
+        <div class="footerFlex">
+            <div class="footerCSS">
+                <a href="https://www.instagram.com/mgaband/"><img width="40" height="40" src="image/instagram.png"></a> 
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://twitter.com/aoringohuzin"><img width="40" height="40" src="image/twitter.jpg"></a>
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://open.spotify.com/artist/4QvgGvpgzgyUOo8Yp8LDm9?si=U3HeSW47SdqIwR1wpUbY-A"><img width="40" height="40" src="image/spotify.jpg"></a>
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://www.youtube.com/channel/UCpFgmZm65yOU5X-hmWkWjuw/videos"><img width="40" height="40" src="image/youtube.jpg"></a>
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://www.facebook.com/Mrs.GREENAPPLEofficial/"><img width="40" height="40" src="image/facebook.jpg"></a>
+            </div>
+        </div>
+        <br>
+        © 2022 Mrs. GREEN APPLE All Rights Reserved.
+    </footer>
 </body>
 </html>

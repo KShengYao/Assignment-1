@@ -13,8 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Island+Moments&family=Roboto:ital,wght@1,100&family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>mrsgreenapple.com</title>
-
-    <script src="java.js"></script>    
+    <script src="store.js"></script>    
 </head>
 
 <body>
@@ -49,7 +48,7 @@
                 <label class="textSmallFonts">Black</label><br><br>
                 SIZE<br>
                 <hr>
-                <img width="300" height="150" src="video/sizing.JPG"><br>
+                <img class="imgCart" width="300" height="150" src="video/sizing.JPG"><br>
                 <label class="textSmallFonts">Unit CM</label><br><br>
 
                 MATERIAL<br>
@@ -58,21 +57,23 @@
 
                 <br>
                 Size:<br>
-                <input type="radio" id="SizeM" name="pic1" value="M">
-                <label for="M">M / Instock</label><br>
-                <input type="radio" id="SizeL" name="pic1" value="L">
-                <label for="L">L / Instock</label><br>
-                <input type="radio" id="SizeXL" name="pic1" value="XL">
-                <label for="XL">XL / Instock</label><br>
-                <br>
+                <form id="FirstSize">
+                    <input type="radio" name="pic1" value="M">
+                    <label for="M">M / Instock</label><br>
+                    <input type="radio" name="pic1" value="L">
+                    <label for="L">L / Instock</label><br>
+                    <input type="radio" name="pic1" value="XL">
+                    <label for="XL">XL / Instock</label><br>
+                    <br>
+                </form>
 
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity1">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg()" class="cartButton">add to Cart</button>
@@ -96,7 +97,7 @@
                 <label class="textSmallFonts">Vanilla White</label><br><br>
                 SIZE<br>
                 <hr>
-                <img width="300" height="150" src="video/sizing.JPG"><br>
+                <img class="imgCart" width="300" height="150" src="video/sizing.JPG"><br>
                 <label class="textSmallFonts">Unit CM</label><br><br>
 
                 MATERIAL<br>
@@ -105,20 +106,23 @@
 
                 <br>
                 Size:<br>
-                <input type="radio" id="Size1M" name="pic2" value="M">
-                <label for="M">M / Instock</label><br>
-                <input type="radio" id="Size1L" name="pic2" value="L">
-                <label for="L">L / Instock</label><br>
-                <input type="radio" id="Size1XL" name="pic2" value="XL">
-                <label for="XL">XL / Instock</label><br>
+                <form id="SecondSize">
+                    <input type="radio" name="pic2" value="M">
+                    <label for="M">M / Instock</label><br>
+                    <input type="radio" name="pic2" value="L">
+                    <label for="L">L / Instock</label><br>
+                    <input type="radio" name="pic2" value="XL">
+                    <label for="XL">XL / Instock</label><br>
+                    <br>
+                </form>
                 <br>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity2">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg1()" class="cartButton">add to Cart</button>
@@ -141,7 +145,7 @@
                 <label class="textSmallFonts">Black</label><br><br>
                 SIZE<br>
                 <hr>
-                <img width="300" height="150" src="video/sizing2.JPG"><br>
+                <img class="imgCart" width="300" height="150" src="video/sizing2.JPG"><br>
                 <label class="textSmallFonts">Unit CM</label><br><br>
 
                 MATERIAL<br>
@@ -150,20 +154,22 @@
 
                 <br>
                 Size:<br>
-                <input type="radio" id="Size2M" name="pic3" value="M">
-                <label for="M">M / Instock</label><br>
-                <input type="radio" id="Size2L" name="pic3" value="L">
-                <label for="L">L / Instock</label><br>
-                <input type="radio" id="Size2XL" name="pic3" value="XL">
-                <label for="XL">XL / Instock</label><br>
-                <br>
+                <form id="ThirdSize">
+                    <input type="radio" name="pic3" value="M">
+                    <label for="M">M / Instock</label><br>
+                    <input type="radio" name="pic3" value="L">
+                    <label for="L">L / Instock</label><br>
+                    <input type="radio" name="pic3" value="XL">
+                    <label for="XL">XL / Instock</label><br>
+                    <br>
+                </form>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity3">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg2()" class="cartButton">add to Cart</button>
@@ -186,7 +192,7 @@
                 <label class="textSmallFonts">Black</label><br><br>
                 SIZE<br>
                 <hr>
-                <img width="300" height="150" src="video/sizing3.JPG"><br>
+                <img class="imgCart" width="300" height="150" src="video/sizing3.JPG"><br>
                 <label class="textSmallFonts">Unit CM</label><br><br>
 
                 MATERIAL<br>
@@ -195,20 +201,22 @@
 
                 <br>
                 Size:<br>
-                <input type="radio" id="Size3M" name="pic4" value="M">
-                <label for="M">M / Instock</label><br>
-                <input type="radio" id="Size3L" name="pic4" value="L">
-                <label for="L">L / Instock</label><br>
-                <input type="radio" id="Size3XL" name="pic4" value="XL">
-                <label for="XL">XL / Instock</label><br>
-                <br>
+                <form id="ForthSize">
+                    <input type="radio" name="pic4" value="M">
+                    <label for="M">M / Instock</label><br>
+                    <input type="radio" name="pic4" value="L">
+                    <label for="L">L / Instock</label><br>
+                    <input type="radio" name="pic4" value="XL">
+                    <label for="XL">XL / Instock</label><br>
+                    <br>
+                </form>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity4">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg3()" class="cartButton">add to Cart</button>
@@ -240,12 +248,12 @@
                 <br>
         
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity5">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg4()" class="cartButton">add to Cart</button>
@@ -273,12 +281,12 @@
 
                 <br>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity6">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg5()" class="cartButton">add to Cart</button>
@@ -307,12 +315,12 @@
                 <label class="textSmallFonts">100% polyester</label><br><br>
                 <br>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity7">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg6()" class="cartButton">add to Cart</button>
@@ -340,28 +348,30 @@
 
                 <br>
                 Size:<br>
-                <input type="radio" id="" name="fav_language" value="iPhone7">
-                <label for="iPhone7">iPhone 7/8/SE</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhoneXR">
-                <label for="iPhoneXR">iPhone XR</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhone11">
-                <label for="iPhone11">iPhone 11</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhone12">
-                <label for="iPhone12">iPhone 12</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhone12pro">
-                <label for="iPhone12pro">iPhone 12 Pro</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhone13">
-                <label for="iPhone13">iPhone 13/14</label><br>
-                <input type="radio" id="" name="fav_language" value="iPhone13pro">
-                <label for="iPhone13pro">iPhone 13 Pro</label><br>
-                <br>
+                <form id="iphone">
+                    <input type="radio" name="phone" value="iPhone7">
+                    <label for="iPhone7">iPhone 7/8/SE</label><br>
+                    <input type="radio" name="phone" value="iPhoneXR">
+                    <label for="iPhoneXR">iPhone XR</label><br>
+                    <input type="radio" name="phone" value="iPhone11">
+                    <label for="iPhone11">iPhone 11</label><br>
+                    <input type="radio" name="phone" value="iPhone12">
+                    <label for="iPhone12">iPhone 12</label><br>
+                    <input type="radio" name="phone" value="iPhone12pro">
+                    <label for="iPhone12pro">iPhone 12 Pro</label><br>
+                    <input type="radio" name="phone" value="iPhone13">
+                    <label for="iPhone13">iPhone 13/14</label><br>
+                    <input type="radio" name="phone" value="iPhone13pro">
+                    <label for="iPhone13pro">iPhone 13 Pro</label><br>
+                    <br>
+                </form>
                 Quantity:
-                <select name="Quantity" id="Quantity1">
+                <select id="Quantity8">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="4">5</option>
+                    <option value="5">5</option>
                 </select>
                 <br><br>
                 <button onclick= "CartMsg7()" class="cartButton">add to Cart</button>
@@ -373,8 +383,33 @@
 
     
 
+    <br><br><br><br>
+    <footer>
+        <br><br>
+        <div class="footerFlex">
+            <div class="footerCSS">
+                <a href="https://www.instagram.com/mgaband/"><img width="40" height="40" src="image/instagram.png"></a> 
+            </div>
 
+            <div class="footerCSS">
+                <a href="https://twitter.com/aoringohuzin"><img width="40" height="40" src="image/twitter.jpg"></a>
+            </div>
 
+            <div class="footerCSS">
+                <a href="https://open.spotify.com/artist/4QvgGvpgzgyUOo8Yp8LDm9?si=U3HeSW47SdqIwR1wpUbY-A"><img width="40" height="40" src="image/spotify.jpg"></a>
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://www.youtube.com/channel/UCpFgmZm65yOU5X-hmWkWjuw/videos"><img width="40" height="40" src="image/youtube.jpg"></a>
+            </div>
+
+            <div class="footerCSS">
+                <a href="https://www.facebook.com/Mrs.GREENAPPLEofficial/"><img width="40" height="40" src="image/facebook.jpg"></a>
+            </div>
+        </div>
+        <br>
+        © 2022 Mrs. GREEN APPLE All Rights Reserved.
+    </footer>
 
 
 

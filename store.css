@@ -79,7 +79,6 @@
     font-family: 'Titillium Web', sans-serif;
     display: flex;
     flex-direction: column;
-
 }
 
 .textSmallFonts{
@@ -105,8 +104,130 @@
     background-color: green;
 }
 
+.cartContainer{
+    width: 400px;
+}
+
+.cartContainer{
+    width: 1000px;
+}
+
+.cartContainerFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.cartContainerFlexCol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartContainerFlexRow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.imgCart{
+    width: 300px;
+    height: 150px;
+}
+
+.cartBlock{
+    width: 550px;
+    height: 25px;
+    
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.cartBlock1{
+    width: 155px;
+    height: 25px;
+    
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.cartHr{
+    width: 850px;
+}
+
+.CheckOutFunctions{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.checkoutHR{
+    width: 500px;
+}
+
+.checkoutContainer{
+    width: 400px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+
+.textWidth{
+    width: 400px;
+}
 @media screen and (max-width:1000px){
     .StoreDetails{
         width: 200px;
     }
+
+    .imgCart{
+        width: 200px;
+        height: 75px;
+    }
+
+    .cartBlock1{
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .cartBlock{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .cartHr,.checkoutHR{
+        width: 380px;
+    }
+
+    .textWidth{
+        width: 300px;
+    }
+
+    .cartButton{
+        width: 150px;
+    }
+}
+
+/* Footer CSS */
+footer{
+    text-align: center;
+    color: #FFF;
+    background-color: #002417;
+}
+.footerFlex{
+    display: flex;
+    justify-content: center;
+    
+}
+.footerCSS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4px;
+    padding-right: 4px;
 }
