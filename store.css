@@ -63,6 +63,8 @@
 }
 
 .imgLocations{
+    width: 400px;
+    height: 100px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -209,6 +211,10 @@
 
     .cartButton{
         width: 150px;
+    }
+    .imgLocations{
+        width: 400px;
+        height: 100px;
     }
 }
 
